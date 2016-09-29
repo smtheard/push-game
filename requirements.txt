@@ -1,2 +1,1 @@
-pyreact==0.6.0
 bottle==0.12.9

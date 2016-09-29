@@ -1,7 +1,3 @@
-import bottle, react
+import bottle, routes
 
-@bottle.route('/hello')
-def hello():
-  return "Hello World!"
-
-bottle.run(host='localhost', port=8080, debug=True)
+bottle.run(host='localhost', port=8080, debug=True, reloader=True)
