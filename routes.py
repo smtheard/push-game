@@ -16,4 +16,4 @@ def stylesheets(filename):
 def images(filename):
   return bottle.static_file(filename, root='client/img')
 
-import controller.hello
+import lib.hello
